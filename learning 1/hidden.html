@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hidden button</title>
+	<script>
+		window.onload=function()
+		{
+			var aA=document.getElementsByTagName('a');
+
+			for(var i=0;i<aA.length;i++)
+			{
+				aA[i].onclick=function()
+				{
+					this.parentNode.style.display='none';
+				}
+			}
+		}
+
+	</script>
+</head>
+<body>
+	<ul id="ul1">
+		<li> ahdkhfjkdh <a href="javascript">hidden</a> </li>
+		<li> fhhjhhh <a href="javascript">hidden</a> </li>
+		<li> ffdfb <a href="javascript">hidden</a> </li>
+		<li> ooootggg <a href="javascript">hidden</a> </li>
+		<li> pyggbg <a href="javascript">hidden</a> </li>
+		<li> qwdvggg <a href="javascript">hidden</a> </li>
+	</ul>
+</body>
+</html>
